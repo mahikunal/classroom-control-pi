@@ -21,6 +21,11 @@
 # will be included in every node's catalog, *in addition* to any classes
 # specified in the console for that node.
 
+node 'mahikunal.puppetlabs.vm' {
+  notify { "This message is ment for node classification for node mahikunal.puppetlabs.vm": }
+
+}
+
 node default {
   # This is where you can declare classes for all nodes.
   # Example:
