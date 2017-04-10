@@ -34,7 +34,7 @@ node default {
   # example code for the classroom
   include examples::puppetize
   
-  notify { "This is the default message from the production environment": }
+  #notify { "This is the default message from the production environment": }
   
-  notify { "Hello, change in Github": }
+  #notify { "Hello, change in Github": }
 }
