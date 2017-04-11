@@ -3,7 +3,9 @@ class profile::redis {
   # Don't forget to update that class before enforcing your code
   require profile::epel
   
-  class { 'redis':
+  class (
+  $maxmemory
+  ) { 'redis':
     # what parameter should we pass to set maxmemory to 10mb?
     
   }
