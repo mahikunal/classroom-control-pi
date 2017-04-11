@@ -25,7 +25,10 @@ node 'mahikunal.puppetlabs.vm' {
   notify { "This message is ment for node classification for node mahikunal.puppetlabs.vm": }
 
 }
+node 'kunalwin.puppetlabs.vm' {
+  notify { "This message is kunal's win host vm": }
 
+}
 node default {
   # This is where you can declare classes for all nodes.
   # Example:
